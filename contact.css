@@ -1,0 +1,47 @@
+#contact{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .contact-form{
+  display: grid;
+  width: 600px;
+  height: 450px;
+  margin-top: 60px;
+  padding: 30px 50px 30px 50px;
+  border: 2px solid #6a30c7;
+  border-radius: 20px;
+  gap: 10px;
+}
+#contact .contact-form h2{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: -25px;
+}
+#contact .contact-form input{
+  border: 2px solid #a59b9b;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 2px 20px 5px 20px;
+  color: #a59b9b;
+  font-size: 16px;
+}
+#contact .contact-form input .msg{
+  padding-top: 0;
+}
+#contact .contact-form button{
+  text-decoration: none;
+  margin-top: 30px;
+  background: linear-gradient(to right, #058692, #6a30c7);
+  border-radius: 15px;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+#contact .contact-form  button:hover {
+  border: 2px solid #a59b9b;
+  cursor: pointer;
+}
+
+/*.......... CSS code for here 4th education section will closed ............*/

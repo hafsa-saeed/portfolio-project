@@ -1,0 +1,136 @@
+section.skills {
+  background-color: #0c0c31da;
+  width: 100vw;
+  height: 150vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 1200;
+}
+
+.p {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  color: #a59b9b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+section.skills .container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  padding-top: 50px;
+  width: 80vw;
+  height: 140vh;
+  margin-left: 150px;
+}
+section.skills .container .item1{
+  margin-left: -100px;
+}
+section.skills .container .item2{
+  margin-left: 70px;
+  margin-right: 50px;
+}
+section.skills .container .item3{
+  margin-left: -40px;
+}
+section.skills .container .item {
+  width: 35%; /* Make items responsive */
+  height: 400px;
+  border: 1px solid #6a30c7;
+  box-shadow: 0px 10px 20px rgba(106, 48, 199, 0.5);
+  border-radius: 10px;
+  background-color: #0e0e26;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 20px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section.skills .container .item:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0px 15px 30px rgba(106, 48, 199, 0.8); 
+}
+section.skills .container .item h1 {
+  color: #bab2b2;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center; 
+}
+
+section.skills .container .all-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  height: 250px;
+  width: 100%;
+}
+
+section.skills .container .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bab2b2;
+  border: 1px solid #bab2b2aa;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  section.skills .container .all-box{
+    gap: 7px;
+  }
+  section.skills .container .item {
+    width: 48%; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section.skills .container .box {
+    gap: 3px;
+    padding: 5px 5px 5px 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section.skills .container .item {
+    width: 85%; 
+    margin-right: 0px;
+  }
+  section.skills .container .item h1{
+    padding-left: 50px;
+  }
+}
+  section.skills{
+    width: 100vw;
+    height: 200vh;
+  }
+  section.skills .container .item2{
+    margin-left: 20px;
+    margin-right: 70px;
+  }
+  section.skills .container .box {
+    gap: 5px;
+  }
+
+
+/*.......... CSS code for here 2nd skill section will closed ............*/

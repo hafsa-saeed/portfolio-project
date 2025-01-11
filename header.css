@@ -1,0 +1,160 @@
+header{
+  display: grid;
+}
+header{
+  height: 70px;
+  width: 100%;
+  padding: 10px 50px;
+  background-color: #0e0e26;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
+  position: sticky;
+  top: 0; 
+  z-index: 2000;
+}
+header nav .portfolio {
+  margin-left: 150px;
+  flex-shrink: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+header nav .portfolio span{
+  color: #8c48f0;
+}
+header nav ul{
+  display: flex;
+  list-style: none;
+  margin: 50px 20px;
+  margin-top: -25px;
+  margin-left: 60vh;
+}
+header nav ul li{
+  margin: 0 15px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+header nav ul li a:hover{
+  color: #8c48f0;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8c48f0;
+  background-color: transparent;
+  border: 3px solid #8c48f0;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-right: 30px;
+  margin-left: 70px;
+  cursor: pointer;
+  margin: left-auto;
+  margin-top: -10px;
+}
+.btn:hover{
+  color: #fff;
+  background-color: #8c48f0;
+}
+.sidebar{
+  display: none;
+}
+
+
+
+/* for responsiveness */
+@media (max-width: 768px) {
+  header{
+    width: 100%;
+  }
+  header nav ul {
+    display: none;
+  }
+.hamburger{
+  
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+.hamburger{
+  .hamburger{
+    display: none;
+  }
+}
+.sidebar{
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 500px;
+  background-color: #0e0e2657;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.155);
+  z-index: 1001;
+  padding-top: 50px;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  color: #8c48f0;
+}
+
+.sidebar.open {
+  display: block;
+  transform: translateX(0);
+}
+
+/* Hide sidebar on large screens */
+@media (max-width: 1008px) {
+  .sidebar {
+    display: none;
+  }
+}
+}
+@media (min-width: 1008px){
+  .sidebar{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -800vh;
+    width: 250px;
+    height: 500px;
+    background-color: #0e0e2657;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.155);
+    z-index: 100;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1008px) {
+  .hamburger{
+    display: none;
+  }
+}
+
+/*.......... CSS code for here header section will closed ............*/

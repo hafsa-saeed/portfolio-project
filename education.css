@@ -1,0 +1,36 @@
+section .Education{
+  background-color: #0c0c31da;
+  width: 100vw;
+  height: 150vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+section .Education .heading-p{
+  margin-bottom: 50px;
+}
+.container-3{
+  display: grid;
+  width: 20vw;
+  height: 80vh;
+  padding-top: 50px;
+  gap: 30px;
+}
+.container-3 i{
+  margin-left: -10px;
+}
+.container-3 .icon{
+  display: flex;
+  
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .container-3 .sub-container .h3{
+    padding-right: 350px;
+  }
+}
+
+/*.......... CSS code for here 4th education section will closed ............*/

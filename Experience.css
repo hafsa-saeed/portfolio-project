@@ -1,0 +1,149 @@
+section.Experience {
+  background-color: #0c0c31da;
+  width: 80vw;
+  height: 120vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center; 
+}
+
+
+/* #Experience{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 120vh;
+  margin-bottom: -50px;
+  background-color: #0c0c31da;
+} */
+.container-2{
+  display: grid;
+  flex-wrap: wrap;
+  border-left: 1px solid #6a30c7;
+  box-shadow: -5px 0px 2px rgba(106, 48, 199, 0.137);
+  width: 40vw;
+  height: 120vh;
+  margin-left: 380px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+.container-2 .sub-container{
+  display: grid;
+  flex-wrap: wrap;
+  border: 1px solid #6a30c7;
+  box-shadow: 0px 5px 5px rgba(106, 48, 199, 0.5);
+  border-radius: 10px;
+  margin-left: 40px;
+  width: 700px;
+  height: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.container-2 .sub-container:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0px 10px 20px rgba(106, 48, 199, 0.8); 
+}
+.container-2 .sub-container .info{
+  display: flex;
+  margin: 15px 20px 0px 50px;
+  gap: 10px;
+  width: 700px;
+  height: 0px;
+}
+
+.container-2 .sub-container h3{
+  color: #bab2b2;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.container-2 .sub-container img{
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  
+}
+.container-2 .sub-container .info .name-date{
+  margin-bottom: 30px;
+  color: #bab2b2;
+}
+.container-2 .sub-container .info .name-date h4{
+  margin-top: 3px;
+}
+.container-2 .para{
+  margin-top: 60px;
+  padding-left: 50px;
+  padding-right: 100px;
+  text-align: justify;
+  color: #bab2b29c;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container-2 .Sceretory{
+  height: 300px;
+}
+.container-2 .Blogger{
+  height: 280px;
+}
+
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .container-2{
+    margin-left: 150px;
+  }
+  .container-2 .sub-container{
+    width: 597px;
+    height: 38vh;
+    margin-left: 40px;
+  }
+  .container-2 .sub-container .para{
+    padding-right: 220px;
+    margin-top: 50px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .container-2{
+    margin-left: 65px;
+    height: 130vh;
+  }
+  .container-2 .sub-container{
+    width: 350px;
+    height: 40vh;
+    margin-left: 40px;
+  }
+  .container-2 .sub-container .para{
+    padding-right: 450px;
+    margin-top: 50px;
+    font-size: 15px;
+    margin: 60px -30px 20px -30px;
+    line-height: 18px;
+  }
+  .container-2 .sub-container .info{
+    margin: 10px 30px 10px 10px;
+  }
+  
+  .container-2 .sub-container .info img{
+    width: 50px;
+    height: 50px;
+  }
+  .container-2 .sub-container .info h3{
+    font-size: 20px;
+  }
+  .container-2 .sub-container .info .name-date h4{
+    font-size: 12px;
+  }
+}
+
+/*.......... CSS code for here 3rd experience section will closed ............*/
+
+/* section.Education {
+  background-color: #0c0c31da;
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;  /* Center the section content 
+} */
